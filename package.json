@@ -1,0 +1,32 @@
+{
+  "name": "bze-media-api",
+  "version": "1.0.0",
+  "description": "Beyond Zero Emissions Media API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "startdev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kujo4pm/bze-media-api.git"
+  },
+  "keywords": [
+    "bze",
+    "media",
+    "api"
+  ],
+  "author": "kurtjohn@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kujo4pm/bze-media-api/issues"
+  },
+  "homepage": "https://github.com/kujo4pm/bze-media-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "hapi": "^17.5.0"
+  }
+}
